@@ -1,0 +1,12 @@
+largest = -1
+print('Before', largest)
+for the_num in [9,41,12,6,84,15]:
+    # This works by checking which number is the biggest against the previous set number, IE:
+    # 9 is bigger than -1, as such, 9 becomes the biggest number (as seen by the largest = the_num, so that reads as 9=9)
+    if the_num >= largest:
+    # However, 41 is bigger than 9 and as such replaces it as the biggest number (if 41 >= 9, 41 = 41)
+        largest = the_num
+    print(largest, the_num)
+
+print('After', largest)
+#this continues until 74, where 74 is now the new "largest" amount, so when we print after largest, we see it is after: 74
