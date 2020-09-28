@@ -1,0 +1,11 @@
+z = 0
+#So here, we can see that z is 0
+print('Before,', z)
+#Standard for loop
+for thing in [40,12,19,82,98,4]:
+#Everytime a value is used from thing, the z value increases by 1, as we can see by z = z + 1
+    z = z + 1
+#The z value (now increased by 1) and the thing value are displayed together)
+    print(z, thing)
+#The end z value is published at the end after every thing value has been calculated
+print('After,', z)
